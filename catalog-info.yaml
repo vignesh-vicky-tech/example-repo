@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "argocd"
+  annotations:
+    github.com/project-slug: vignesh-vicky-tech/example-repo
+  description: create aws ec2 instance managed by crossplane
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
