@@ -1,6 +1,6 @@
 ---
 apiVersion: compositions.io/v1alpha1
-kind: Instance
+kind: InstanceClaim
 metadata:
   name: "example-ec2-instances"
 spec:
