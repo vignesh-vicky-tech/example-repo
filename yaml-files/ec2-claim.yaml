@@ -2,7 +2,7 @@
 apiVersion: compositions.io/v1alpha1
 kind: Instance
 metadata:
-  name: "example-ec2"
+  name: "example-ec2-instances"
 spec:
   parameters:
     region: "us-east-1"
